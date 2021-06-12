@@ -42,7 +42,10 @@ public class CreateAccountStepDefinitions {
     public void theUserToSeeYourProfile(List<People> arg1) {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
-        System.out.println("Name: " + arg1.get(0).getName() + " Lastname: " + arg1.get(0).getLastname() + " Email: " + arg1.get(0).getEmail());
+        System.out.println("Name: " + arg1.get(0).getName());
+        System.out.println("Lastname: " + arg1.get(0).getLastname());
+        System.out.println("Email: " + arg1.get(0).getEmail());
+
     }
 
 

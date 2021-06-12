@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Create new user account" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-11T16:18:01" hostname="50HW015982" time="0.201">
+<testsuite name="Create new user account" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-12T04:17:35" hostname="50HW015982" time="0.269">
   <properties/>
-  <testcase name="create successfully user account" classname="Create new user account" time="0.201"/>
+  <testcase name="create successfully user account" classname="Create new user account" time="0.269"/>
   <system-out><![CDATA[--- user
-Name: fidel Lastname: villero Email: apto
+Name: fidel
+Lastname: villero
+Email: fideljose17@gmail.com
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

@@ -7,5 +7,5 @@ Feature: Create new user account
     And user insert to location
       | user | password | email |
     Then the user to see your profile
-      | name  | lastname | email |
-      | fidel | villero  | apto  |
+      | name  | lastname | email                 |
+      | fidel | villero  | fideljose17@gmail.com |
