@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Create new user account" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-13T18:33:11" hostname="50HW015982" time="12.185">
+<testsuite name="Create new user account" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-13T19:22:42" hostname="50HW015982" time="13.389">
   <properties/>
-  <testcase name="create successfully user account" classname="Create new user account" time="12.185"/>
+  <testcase name="create successfully user account" classname="Create new user account" time="13.389"/>
   <system-out><![CDATA[
 
 
@@ -20,15 +20,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]]></system-out>
-  <system-err><![CDATA[Jun 13, 2021 1:33:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Jun 13, 2021 2:22:42 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 44459
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 11923
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1623609193.832][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
-Jun 13, 2021 1:33:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1623612164.560][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 13, 2021 2:22:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
