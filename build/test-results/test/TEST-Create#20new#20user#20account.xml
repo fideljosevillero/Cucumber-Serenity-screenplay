@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Create new user account" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-12T04:17:35" hostname="50HW015982" time="0.269">
+<testsuite name="Create new user account" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-13T04:00:35" hostname="50HW015982" time="5.977">
   <properties/>
-  <testcase name="create successfully user account" classname="Create new user account" time="0.269"/>
-  <system-out><![CDATA[--- user
+  <testcase name="create successfully user account" classname="Create new user account" time="5.977"/>
+  <system-out><![CDATA[
+
+
+
+
 Name: fidel
-Lastname: villero
+Lastname: Villero
 Email: fideljose17@gmail.com
+
+
+
 ]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+  <system-err><![CDATA[Jun 12, 2021 11:00:35 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 15498
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1623556837.527][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+Jun 12, 2021 11:00:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
