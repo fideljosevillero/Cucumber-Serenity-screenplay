@@ -1,6 +1,7 @@
 package co.com.fideljose.certification.screenplayproject.stepdefinitions;
 
-import co.com.fideljose.certification.screenplayproject.models.People;
+import co.com.fideljose.certification.screenplayproject.models.User;
+import co.com.fideljose.certification.screenplayproject.tasks.UserInformation;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -29,14 +30,13 @@ public class CreateAccountStepDefinitions {
         OnStage.theActorInTheSpotlight().wasAbleTo(Open.url("https://advantageonlineshopping.com/#/register"));
     }
 
-    @When("^user insert your information (.*)$")
-    public void userInsertYourInformation(String  arg1) {    }
+    @When("^user insert your information$")
+    public void userInsertYourInformation(List<User> users) {
+        OnStage.theActorInTheSpotlight().attemptsTo(UserInformation.setUserInformation(users));
+    }
 
     @When("^user insert to location$")
-    public void userInsertToLocation(List<People> arg1) {
-        System.out.println("Name: " + arg1.get(0).getUsername());
-        System.out.println("Lastname: " + arg1.get(0).getLastName());
-        System.out.println("Email: " + arg1.get(0).getEmail());
+    public void userInsertToLocation() {
     }
 
     @Then("^the user to see your profile$")
