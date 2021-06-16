@@ -4,8 +4,8 @@ import co.com.fideljose.certification.screenplayproject.models.User;
 import co.com.fideljose.certification.screenplayproject.tasks.UserInformation;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.Cast;
@@ -39,8 +39,9 @@ public class CreateAccountStepDefinitions {
     public void userInsertToLocation() {
     }
 
-    @Then("^the user to see your profile$")
-    public void theUserToSeeYourProfile() {    }
+     public void theUserToSeeYourProfile() {
+
+     }
 
 
 
