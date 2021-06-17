@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Create new user account" skipped="0" tests="1" time="121.98" timestamp="2021-06-15 06:36:13"><testcase name="create successfully user account"><failure message="&#10;Expected: an element that is not enabled&#10;     but: the element identified by id: register_btnundefined [REGISTER] was enabled or not found" type="java.lang.AssertionError">
-Expected: an element that is not enabled
-     but: the element identified by id: register_btnundefined [REGISTER] was enabled or not found</failure><system-err>
-Expected: an element that is not enabled
-     but: the element identified by id: register_btnundefined [REGISTER] was enabled or not found&#13;
-co.com.fideljose.certification.screenplayproject.tasks.UserInformation.performAs(UserInformation.java:60)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Create new user account" skipped="0" tests="1" time="13.99" timestamp="2021-06-16 06:16:57"><testcase name="create successfully user account"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+co.com.fideljose.certification.screenplayproject.tasks.UserInformation.performAs(UserInformation.java:26)&#13;
 co.com.fideljose.certification.screenplayproject.stepdefinitions.CreateAccountStepDefinitions.userInsertYourInformation(CreateAccountStepDefinitions.java:35)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>

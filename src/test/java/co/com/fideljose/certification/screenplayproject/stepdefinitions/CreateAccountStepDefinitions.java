@@ -25,6 +25,21 @@ public class CreateAccountStepDefinitions {
     @Managed
     WebDriver chrome;
 
+    // Background
+    @Given("^user insite$")
+    public void userInsite() {
+        // Write code here that turns the phrase above into concrete actions
+        // throw new PendingException();
+        System.out.println("-> Method userInsite");
+    }
+
+    @When("^user is logged$")
+    public void userIsLogged() {
+        // Write code here that turns the phrase above into concrete actions
+        // throw new PendingException();
+        System.out.println("-> Method userIsLogged");
+    }
+
     @Given("^user is into website$")
     public void userIsIntoWebsite() {
         OnStage.theActorInTheSpotlight().wasAbleTo(Open.url("https://advantageonlineshopping.com/#/register"));

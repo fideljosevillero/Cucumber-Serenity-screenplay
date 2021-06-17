@@ -1,6 +1,13 @@
+buildscript {
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.17")
+    }
+}
 plugins {
     id 'java'
 }
+
+apply plugin: 'net.serenity-bdd.aggregator'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
